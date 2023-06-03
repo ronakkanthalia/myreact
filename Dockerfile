@@ -6,6 +6,6 @@ WORKDIR /app
 
 RUN npm install && npm run build
 
-EXPOSE 3000
+EXPOSE 3005
 
 CMD ["node", "server.js"]
