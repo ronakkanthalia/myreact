@@ -2,7 +2,7 @@ const express = require('express');
 var serveStatic = require('serve-static')
 const path = require('path');
 
-const PORT = 3000;
+const PORT = 3005;
 const app = express();
 
 app.use(serveStatic(path.join(__dirname, 'build'), {
